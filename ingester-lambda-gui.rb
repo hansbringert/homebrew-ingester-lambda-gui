@@ -6,7 +6,7 @@ class IngesterLambdaGui < Formula
   desc "Ingester Lambda GUI"
   homepage "https://bitbucket.org/infomaker/"
   url  "https://s3-eu-west-1.amazonaws.com/open-content-artifacts/ingester-lambda-gui/ingester-lambda-gui-0.0.6.tar.gz"
-  sha256 "32f495a5ce67e5847a8c17ceed572f1f6a9d04911618ba992f7c96b1e362bd5e"
+  sha256 "ac024360376ff23d6c1d3bb4faedac0636bd582eaa6b0844e4597479b64d9af2"
 
   def install
     bin.install "ingester-lambda-gui"

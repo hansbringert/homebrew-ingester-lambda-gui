@@ -5,11 +5,11 @@
 class IngesterLambdaGui < Formula
   desc "Ingester Lambda GUI"
   homepage "https://bitbucket.org/infomaker/"
-  url  "https://s3-eu-west-1.amazonaws.com/open-content-artifacts/ingester-lambda-gui/ingester-lambda-gui-ac7fa66.tar.gz"
-  sha256 "04c92ac6a99c2262c10976a70e11c3f40a9ea07c8e5246325a23955256b0e697"
+  url  "https://s3-eu-west-1.amazonaws.com/open-content-artifacts/ingester-lambda-gui/ingester-lambda-gui-0.0.3.tar.gz"
+  sha256 "f615f4d5101ec46b855943a27401dce9e131596931766338da7938e6b405eee1"
 
   def install
-    bin.install "ingester-lambda-gui"
+    bin.install "build/darwin/ingester-lambda-gui"
   end
 
   test do
